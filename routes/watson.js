@@ -41,7 +41,7 @@ function sendMail(screen_name,tweetText){
         };        
         
         if(!err){
-          client.post("http://localhost:5000/api/surveys/node", args, function (data, response) {    
+          client.post( config.FEEDBACK_APP_URL + "/api/surveys/node", args, function (data, response) {    
             console.log("\n\n\n\n\n\n" + response + "\n\n\n\n\n\n");
           });            
         }
@@ -85,8 +85,7 @@ exports.analyzeText = function (id_str, tweetText, screen_name) {
                   }
               }
 
-              callDubeyAPI(id_str, myParams, function(id_str, data){       
-              console.log("HAMARA DATA YAHi HAI");
+              callDubeyAPI(id_str, myParams, function(id_str, data){                     
               console.log(data);                               
                   var params = {
                     status: "@" + screen_name + " " + data.authorityName + " " + data.authorityContact + " " + data.authorityWebsite,    
