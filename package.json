@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NPM_CONFIG_PRODUCTION=false node app.js",
+    "start": "NPM_CONFIG_PRODUCTION=false npm install"
   },
   "author": "Akshay Mishra, Pranjal Jain, Amay Dubey",
   "license": "ISC",
