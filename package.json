@@ -1,0 +1,23 @@
+{
+  "name": "capstone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Akshay Mishra, Pranjal Jain, Amay Dubey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "http": "0.0.0",
+    "mongodb": "^2.2.33",
+    "node-rest-client": "^3.1.0",
+    "nodemon": "^1.17.3",
+    "request": "^2.85.0",
+    "twit": "^2.2.9",
+    "watson-developer-cloud": "^3.3.0"
+  }
+}
