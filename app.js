@@ -109,6 +109,6 @@ setInterval(function(){
 }, config.POLLING_INTERVAL);
 
 
-http.createServer(app).listen(8000, function(){
+http.createServer(app).listen(process.env.PORT || 8000, function(){
     console.log('Express Server listening at port:' + 8000);
 });  
