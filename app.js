@@ -21,6 +21,14 @@ const testResponse = require('./routes/response');
 testResponse.test('988159275393404928',"<b>test4</b>");
 */
 
+app.get('/', function(req,res){
+  res.send(
+            {
+              "Hi" : "Bye"
+            }
+  );
+});
+
 app.get('/form', function (req, res) {
   var html='';
   html +="<body>";
