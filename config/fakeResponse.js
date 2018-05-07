@@ -5,7 +5,7 @@ module.exports = {
              "id": Math.floor(Math.random() * Math.floor(987545562693054500)),
              //"id": local_id,
              "id_str": "987545562693054465",
-             "text": "#testingtesting is dil ne kia h nikamma",
+             "text": "#testingtesting This is the stub API response",
              "truncated": false,
              "entities": [
                 "TEST"

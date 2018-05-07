@@ -7,9 +7,7 @@ var client = new Client();
 var T = require('../config/twit.js')
 const request = require('request');
 
-function callDubeyAPI(id_str, params, cb){
-  console.log("in callDubeyAPI");
-  
+function callDubeyAPI(id_str, params, cb){    
   client.post(config.REC_ENGINE_URL, params, function (data, response) {    
     cb(id_str, data);   
   });
