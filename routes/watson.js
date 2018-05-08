@@ -111,7 +111,7 @@ exports.analyzeText = function (id_str, tweetText, screen_name) {
                   };
                   console.log(params);
                   T.post('statuses/update', params, function (err, data, response) {
-                    //sendMail(screen_name,tweetText);
+                    sendMail(screen_name,tweetText);
                     console.log("response data ");
                     console.log(data);
                   });
