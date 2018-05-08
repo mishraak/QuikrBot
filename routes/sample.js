@@ -44,7 +44,7 @@
    [ { created_at: 'Sat Apr 21 19:01:51 +0000 2018',
        id: 987768391384551400,
        id_str: '987768391384551425',
-       text: '#tattimerijaan nine',
+       text: '#hi nine',
        truncated: false,
        entities: [Object],
        metadata: [Object],

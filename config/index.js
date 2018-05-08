@@ -1,5 +1,5 @@
 module.exports = {  
-  POLLING_INTERVAL:     1*10*1000,    
+  POLLING_INTERVAL:     2*1000,    
   MONGO_URL: 			'mongodb://prodowner:prodroot@ds111138.mlab.com:11138/prodfeedbackapp',	
   HASHTAG:              '#cmpe295bproblem',
   INITIAL_SINCE_ID:     987545562693054500,

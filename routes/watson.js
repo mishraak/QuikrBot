@@ -64,13 +64,31 @@ exports.analyzeText = function (id_str, tweetText, screen_name) {
         var entities = response.entities;
         var entityArray = {};
 
-        for(let e of entities){
+        /*for(let e of entities){
             if(e.type=="Location"){
                 entityArray[e.type] = e.text;
             }
             else
                 entityArray["type"] = e.type;
+        }*/
+        var keywords = "";
+        console.log(response);
+        for(let key of response.keywords){
+            console.log(key);
+            keywords = keywords + key.text +",";
         }
+
+        for(let e of entities){
+            if(e.type=="Location"){
+                //entityArray[e.type] = e.text;                
+            }
+        }
+
+        entityArray["type"] = keywords;
+        entityArray["location"] = "";
+        
+        console.log(entityArray);
+        
         mongo.connect(config.MONGO_URL, function(){
             
             var coll = mongo.collection('tweets');
@@ -93,7 +111,7 @@ exports.analyzeText = function (id_str, tweetText, screen_name) {
                   };
                   console.log(params);
                   T.post('statuses/update', params, function (err, data, response) {
-                    sendMail(screen_name,tweetText);
+                    //sendMail(screen_name,tweetText);
                     console.log("response data ");
                     console.log(data);
                   });
