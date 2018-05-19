@@ -1,24 +1,24 @@
 module.exports = {
 	list: [
 		{
-			CONSUMER_KEY:         '9UJx91SO420Gtl7eogc6dmXDl',
-	  		CONSUMER_SECRET:      '6Bu9iPfdpUA8SKyxnnXYkDo5TxOFjm0gcgvphSZZW0CYlNbaUe',
-	  		ACCESS_TOKEN:         '1053036811-xDn7vZTrEZF9bjZuRYfEGaD410fPSkb0XCfH7Nx',
-	  		ACCESS_TOKEN_SECRET:  'AAOI1tbiPA9vuGYvcBt4L5G6NrjTQIFlIDy4eBLelG9MB',
+			CONSUMER_KEY:         '',
+	  		CONSUMER_SECRET:      '',
+	  		ACCESS_TOKEN:         '',
+	  		ACCESS_TOKEN_SECRET:  '',
 	  		TIMEOUT_MS:           60*1000,
 		},
 		{
-			CONSUMER_KEY:         'SGWCwKsFoOFUr1DBUgMtv6N5C',
-	  		CONSUMER_SECRET:      'GhUd4YgZhtLD9sXITcKJecAmT8vHRiNMIYY1r07NYxbgKXnOTl',
-	  		ACCESS_TOKEN:         '987576064888029185-LoPaRn6KcJJWc2NEXF8mYbSXp7Igk6p',
-			ACCESS_TOKEN_SECRET:  'RSFDVz9WHC3Y0Ll6cXwdkdCypoEvqpbOXK1x2wxOfkpDg',
+			CONSUMER_KEY:         '',
+	  		CONSUMER_SECRET:      '',
+	  		ACCESS_TOKEN:         '',
+			ACCESS_TOKEN_SECRET:  '',
 			TIMEOUT_MS:           60*1000,
 		},
 		{
-			CONSUMER_KEY:         'kWC9J1F6YswyXWaYPOSvUSTdu',
-	  		CONSUMER_SECRET:      'pkzffCTxDP7CWv5sWx1u2YBI1mljDm29F0e4Lid7NhxfsrrRLu',
-	  		ACCESS_TOKEN:         '994359176213114880-t9xhMJFf9mAK34LkIXdedXQ1ufDGBUV',
-			ACCESS_TOKEN_SECRET:  'D2imNG5e74Yy7N7Di3urGAlRpwsMZ1kTG8FuO3WcvxjfU',
+			CONSUMER_KEY:         '',
+	  		CONSUMER_SECRET:      '',
+	  		ACCESS_TOKEN:         '',
+			ACCESS_TOKEN_SECRET:  '',
 			TIMEOUT_MS:           60*1000,
 		}	
 	]
